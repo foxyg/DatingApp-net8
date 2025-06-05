@@ -11,7 +11,7 @@ import { HomeComponent } from "./home/home.component";
   imports: [RouterOutlet, NgFor, NavComponent, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
-})
+})  
 export class AppComponent implements OnInit{
   private accountService = inject(AccountService)
 
