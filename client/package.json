@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.3",
     "bootswatch": "^5.3.6",
     "font-awesome": "^4.7.0",
+    "ng-gallery": "^12.0.0",
     "ngx-bootstrap": "^12.0.0",
     "ngx-toastr": "^19.0.0",
     "rxjs": "~7.8.0",
@@ -39,5 +40,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^17.0.0"
   }
 }
